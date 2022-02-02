@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="firstbuild" default="compile">
+	<target name="compile">
+		<javac srcdir="."
+				includeAntRuntime="no"/>
+		<echo>compilation complete!</echo>
+	</target>
+</project>
